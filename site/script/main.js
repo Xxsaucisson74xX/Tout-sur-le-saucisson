@@ -1,5 +1,5 @@
 function reponse(mot,choix) {
-  // récupère un texte, si l'utilisateur rentre ce texte elle retourn vrai sinon faux
+  // récupère un mot, si l'utilisateur rentre ce texte elle alerte bonne réponse sinon mauvaise réponse
     if (choix == mot) {
         window.alert('Bonne réponse');
     } 
